@@ -1,0 +1,43 @@
+.userItem {
+    display: flex;
+    text-decoration: none;
+    color: #121212;
+    font-size: 13px;
+    margin-bottom: 55px;
+    .infoUser {
+        padding-left: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 333px;
+        .date {
+            color: #999999;
+        }
+        .name {
+            font-size: 20px;
+        }
+    }
+    
+    .img {
+        width: 85px;
+        height: 82px;
+        border-radius: 12px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-right: auto;
+        text-decoration: none;
+        .btn{
+            width: 141px;
+            height: 48px;
+            font-size: 16px;
+            background: #52228C;
+            border-radius: 12px;
+            color: white;
+            border: none;
+        }
+    } 
+}

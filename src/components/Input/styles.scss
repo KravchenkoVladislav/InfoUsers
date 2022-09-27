@@ -1,0 +1,27 @@
+.edit{
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    .input{
+        padding: 0px;
+        margin: 0px;
+        border: 1px solid #121212;
+        border-radius: 12px 0px 0px 12px;
+        width: 307px;
+        height: 52px;
+        color: #121212;
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 14px;
+    }
+    .btnEdit{
+        background: #52228C;
+        border-radius: 0px 12px 12px 0px;
+        width: 143px;
+        height: 54px;
+        font-weight: 500;
+        font-size: 16px; 
+        color: #FFFFFF;
+        border: none;
+    } 
+}
